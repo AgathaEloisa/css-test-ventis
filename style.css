@@ -19,21 +19,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-
-.fringe{
-    position: relative;
-    width: 100%;
-    height: 17%;
-}
+    /* border: .2em solid red;  */
+}  
 
 .green {
+    position: relative;
+    bottom: 21%;
+    width: 100%;
+    height: 17%;
     background-color: green;
     border-top: .25em solid black;
 }
 
 .red {
+    position: relative;
+    right: 34%;
     width: 17%;
     height: 100%;
     background-color: red;
@@ -41,13 +41,18 @@
 }
 
 .yellow {
+    position: relative;
+    width: 100%;
+    height: 17%;
     background-color: yellow;
     border-bottom: .25em solid black;
 }
 
 .blue {
+    position: relative;
+    left: 50%;
     width: 17%;
     height: 100%;
     background-color: blue;
-    border-right: .25em solid black;
+    border-left: .25em solid black;
 }
