@@ -22,7 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: large;
+    font-size: 2em;
 }  
 
 .green {
@@ -36,11 +36,11 @@
 
 .red {
     position: relative;
-    right: 34%;
+    right: 29%;
     width: 17%;
     height: 100%;
     background-color: red;
-    border-right: .25em solid black;
+    border-right: .15em solid black;
 }
 
 .yellow {
@@ -53,9 +53,9 @@
 
 .blue {
     position: relative;
-    left: 51%;
+    left: 60%;
     width: 17%;
     height: 100%;
     background-color: blue;
-    border-left: .25em solid black;
+    border-left: .15em solid black;
 }
